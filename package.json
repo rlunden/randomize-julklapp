@@ -1,0 +1,29 @@
+{
+  "name": "randomize-julklapp",
+  "version": "1.0.0",
+  "description": "Let this script decide who gives Christmas gifts to whom.",
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "randomize",
+    "christmas",
+    "gift"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-sanity": "^7.0.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-packagejson": "^2.4.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
