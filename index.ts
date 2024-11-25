@@ -13,7 +13,7 @@ const givers = [...receivers];
 // Randomize a giver to each receiver
 const pairs = givers.map((giver, i) => {
   let receiver = giver,
-    randomIndex;
+    randomIndex = -1;
 
   while (
     // Receiver cannot be the same person as the giver
@@ -27,7 +27,7 @@ const pairs = givers.map((giver, i) => {
     receiver = receivers[randomIndex];
   }
 
-  receivers.splice(randomIndex as number, 1);
+  receivers.splice(randomIndex, 1);
   return { giver, receiver };
 });
 
